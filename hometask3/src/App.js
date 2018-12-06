@@ -3,7 +3,10 @@ import ReactDom from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginForm from './Login';
 import Menu from './Menu';
-import Developer from './developer';
+import Footer from './Footer';
+import css from './style.css';
+
+
 
 class App extends React.Component {
     render() {
@@ -13,9 +16,15 @@ class App extends React.Component {
             {href:"/service", title:"Service"},
             {href:"/contacts", title:"Contacts"},
         ]
+
+        const page = (<main>
+            <Menu titleMenu="React" items={menuItems}/>
+            <LoginForm/>
+            <Footer/>
+            </main>
+        )
     
-    return ( <Menu titleMenu="React" items={menuItems}/>
-         <LoginForm/>)
+    return (page)
 }}
 
 ReactDom.render(<App/>, document.getElementById('root'))
