@@ -1,0 +1,37 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+.container{
+  max-width: 960px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#root {
+  height: 100%;
+}
+
+.container{
+  margin-top: 56px;
+  margin-bottom: 120px;
+}
+
+footer .container{
+  margin-top:0;
+  margin-bottom: 0;
+}
