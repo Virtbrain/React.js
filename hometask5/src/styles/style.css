@@ -22,3 +22,16 @@ header {
   justify-content: flex-end;
 }
 
+#root {
+  height: 100%;
+}
+
+.container{
+  margin-top: 56px;
+  margin-bottom: 120px;
+}
+
+footer .container{
+  margin-top:0;
+  margin-bottom: 0;
+}

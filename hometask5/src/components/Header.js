@@ -11,7 +11,7 @@ export default class Header extends React.Component {
 
         return (
             <header>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                     <div className="navbar-brand">{`Проект: "Начало!"`}</div>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav m1-auto">
